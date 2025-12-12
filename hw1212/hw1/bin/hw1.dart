@@ -12,17 +12,15 @@ class Score {
 // Score를 상속받아 학생의 정보를 포함하는 StudentScore 클래스 구성
 class StudentScore extends Score {
   String name;
-  StudentScore(
-    this.name,
-    super.score,
-  ); // [need help] override의 필요성을 이해하지 못해서 super로 풀이함.
+  StudentScore(this.name, super.score);
 
+  @override
   void showInfo() {
     print("이름: $name, 점수: $score");
   }
 }
 
-//
+// 필수 정의에 따른 점수와 학생 점수 출력하기
 void main() {
   Score s = Score(90);
   s.showInfo();
