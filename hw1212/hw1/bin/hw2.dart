@@ -60,6 +60,7 @@ class StudentScore {
 [추정] 
 1. loadStudentData는 함수임. -> 이 함수를 사용해서 Map을 만든 후에 StudentScore를 연결하면 될 듯.
   1-1. [의문] 문제에서는 Map이 아닌 List를 요구하였음. 이름: "$name, 점수: $score" 형태의 String type 리스트를 원하시는 건가? 왜 Map이 아니라 List? Map으로 하면 난이도가 더 높아져서 인가?
+  1-2. 클래스 내부에서 클래스 바깥에 있는 함수를 호출할 수 있나? 생명 주기? 그런 것 때문에 안되지 않나? -> 확인해보지 못함.
 2. class는 설계도. 생성자에서 데이터를 어떻게 끌어올 건지는 void main 에서 진행하면 될듯. */
 }
 
