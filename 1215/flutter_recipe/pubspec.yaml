@@ -76,25 +76,30 @@ flutter:
   fonts:
     - family: NotoSerifKR
       fonts:
-        - asset: fonts/NOTOSERIFKR-EXTRALIGHT.OTF
-          weight: 100
-        - asset: fonts/NOTOSERIFKR-LIGHT.OTF
-          weight: 200
-        - asset: fonts/NOTOSERIFKR-VF.OTF
-          weight: 300
-        - asset: fonts/NOTOSERIFKR-MEDIUM.OTF
-          weight: 400
-        - asset: fonts/NOTOSERIFKR-SEMIBOLD.OTF
-          weight: 500
-        - asset: fonts/NOTOSERIFKR-BOLD.OTF
-          weight: 600
-        - asset: fonts/NOTOSERIFKR-BLACK.OTF
-          weight: 700        
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
+       - asset: assets/fonts/NOTOSERIFKR-LIGHT.OTF
+         weight: 200
+       - asset: assets/fonts/NOTOSERIFKR-VF.TTF
+         weight: 300
+       - asset: assets/fonts/NOTOSERIFKR-MEDIUM.OTF
+         weight: 400
+       - asset: assets/fonts/NOTOSERIFKR-SEMIBOLD.OTF
+         weight: 500
+       - asset: assets/fonts/NOTOSERIFKR-BOLD.OTF
+         weight: 600
+       - asset: assets/fonts/NOTOSERIFKR-BLACK.OTF
+         weight: 700
+    - family: KBIZ
+      fonts:
+       - asset: assets/fonts/KBIZ_B.TTF
+         weight: 400
+       - asset: assets/fonts/KBIZ_H.TTF
+         weight: 500
+       - asset: assets/fonts/KBIZ_L.TTF
+         weight: 100
+       - asset: assets/fonts/KBIZ_M.TTF
+         weight: 300
+       - asset: assets/fonts/KBIZ_R.TTF
+         weight: 200          
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
